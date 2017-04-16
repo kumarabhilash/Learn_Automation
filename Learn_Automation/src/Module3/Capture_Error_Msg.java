@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 
 public class Capture_Error_Msg {
 
-	@Test
+	//@Test
 	public static void main(String[] args) throws InterruptedException {
 		
 		System.setProperty("webdriver.chrome.driver", "C://Users/kumar/workspace/selenium packg zar/chromedriver.exe");

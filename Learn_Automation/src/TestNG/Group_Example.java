@@ -20,5 +20,4 @@ public class Group_Example {
 	public void Miscellenious(){
 		System.out.println("Both smoke and regression passed");
 	}
-	
 }

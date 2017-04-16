@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [crossBrowser]">
+  <test name="Chrometest(failed)">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="TestNG.VerifyTitle">
+        <methods>
+          <include name="verifyPageTitle" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestNG.VerifyTitle -->
+    </classes>
+  </test> <!-- Chrometest(failed) -->
+  <test name="firefoxtest(failed)">
+    <parameter name="Browser" value="Firefox"/>
+    <classes>
+      <class name="TestNG.VerifyTitle">
+        <methods>
+          <include name="verifyPageTitle" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestNG.VerifyTitle -->
+    </classes>
+  </test> <!-- firefoxtest(failed) -->
+</suite> <!-- Failed suite [crossBrowser] -->
